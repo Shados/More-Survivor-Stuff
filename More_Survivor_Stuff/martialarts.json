@@ -26,7 +26,7 @@
       "You itch to get somewhere and smack anything that tries to stop you.",
       "%s raises their weapon and takes up an agile stance."
     ],
-    "autolearn": [["bashing", 4]],
+    "autolearn": [["bashing", "4"]],
     "strictly_melee": true,
     "onmove_buffs": [
       {
@@ -116,7 +116,7 @@
       "You hold your weapon close and watch for weaklings come to challenge you.",
       "%s holds their weapon close."
     ],
-    "autolearn": [["bashing", 5]],
+    "autolearn": [["bashing", "5"]],
     "strictly_melee": true,
     "static_buffs": [
       {
@@ -251,7 +251,7 @@
       "You grip your flail confidently and start swaying the chain.",
       "%s grips their flail and sways the chain idly."
     ],
-    "autolearn": [["bashing", 6]],
+    "autolearn": [["bashing", "6"]],
     "strictly_melee": true,
     "static_buffs": [
       {
@@ -333,7 +333,7 @@
       "You assume a sturdy stance and keep one arm cocked and loaded.",
       "%s assumes a sturdy stance and keeps an arm ready."
     ],
-    "autolearn": [["unarmed", 5]],
+    "autolearn": [["unarmed", "5"]],
     "arm_block": 1,
     "static_buffs": [
       {
