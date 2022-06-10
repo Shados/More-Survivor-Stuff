@@ -33,13 +33,7 @@
       ["PARROT", 0]
     ],
     "death_drops": "mon_zombie_monstroustechnician_death_drops",
-    "death_function": {
-      "effect": {
-        "id": "mss_mon_zombie_monstroustechnician_death",
-        "hit_self": true
-      },
-      "message": "The %s dramatically pauses and drops to the ground dead, shaking the earth on impact."
-    },
+    "death_function": ["NORMAL"],
     "flags": [
       "SEES",
       "HEARS",
