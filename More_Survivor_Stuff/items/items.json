@@ -20,8 +20,15 @@
       {
         "pocket_type": "MAGAZINE_WELL",
         "rigid": true,
-        "flag_restriction": ["BATTERY_HEAVY"],
-        "default_magazine": "heavy_battery_cell"
+        "default_magazine": "heavy_battery_cell",
+        "item_restriction": [
+          "heavy_battery_cell",
+          "heavy_plus_battery_cell",
+          "heavy_atomic_battery_cell",
+          "heavy_disposable_cell"
+        ],
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg"
       }
     ]
   },
@@ -66,8 +73,15 @@
       {
         "pocket_type": "MAGAZINE_WELL",
         "rigid": true,
-        "flag_restriction": ["BATTERY_HEAVY"],
-        "default_magazine": "heavy_battery_cell"
+        "default_magazine": "heavy_battery_cell",
+        "item_restriction": [
+          "heavy_battery_cell",
+          "heavy_plus_battery_cell",
+          "heavy_atomic_battery_cell",
+          "heavy_disposable_cell"
+        ],
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg"
       }
     ]
   },
