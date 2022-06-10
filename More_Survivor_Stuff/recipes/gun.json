@@ -143,7 +143,6 @@
       { "proficiency": "prof_gunsmithing_basic" },
       { "proficiency": "prof_gunsmithing_improv" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_circuits" },
       { "proficiency": "prof_electromagnetics" }
     ],
     "components": [
