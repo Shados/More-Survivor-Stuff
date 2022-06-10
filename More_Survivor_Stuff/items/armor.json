@@ -18,7 +18,7 @@
     "symbol": "[",
     "looks_like": "gloves_lsurvivor",
     "color": "green",
-    "armor": [
+    "armor_portion_data": [
       { "encumbrance": 7, "coverage": 100, "covers": ["hand_l", "hand_r"] }
     ],
     "warmth": 10,
@@ -46,7 +46,7 @@
     "symbol": "[",
     "looks_like": "boots",
     "color": "green",
-    "armor": [
+    "armor_portion_data": [
       { "encumbrance": 14, "coverage": 100, "covers": ["foot_l", "foot_r"] }
     ],
     "warmth": 10,
@@ -71,7 +71,9 @@
     "symbol": "[",
     "looks_like": "helmet_army",
     "color": "dark_gray",
-    "armor": [{ "encumbrance": 18, "coverage": 100, "covers": ["head"] }],
+    "armor_portion_data": [
+      { "encumbrance": 18, "coverage": 100, "covers": ["head"] }
+    ],
     "warmth": 10,
     "material_thickness": 4,
     "environmental_protection": 3,
@@ -96,7 +98,7 @@
     "material": ["kevlar_layered", "cotton"],
     "symbol": "[",
     "color": "dark_gray",
-    "armor": [
+    "armor_portion_data": [
       { "covers": ["eyes"], "coverage": 100, "encumbrance": 4 },
       { "covers": ["mouth"], "coverage": 100, "encumbrance": 16 }
     ],
@@ -131,7 +133,9 @@
     "symbol": "[",
     "looks_like": "hood_lsurvivor",
     "color": "green",
-    "armor": [{ "encumbrance": 10, "coverage": 100, "covers": ["head"] }],
+    "armor_portion_data": [
+      { "encumbrance": 10, "coverage": 100, "covers": ["head"] }
+    ],
     "warmth": 10,
     "material_thickness": 3,
     "environmental_protection": 3,
@@ -152,7 +156,7 @@
     "symbol": "[",
     "looks_like": "lsurvivor_suit",
     "color": "green",
-    "armor": [
+    "armor_portion_data": [
       { "covers": ["torso"], "coverage": 100, "encumbrance": [5, 14] },
       { "covers": ["leg_l", "leg_r"], "coverage": 100, "encumbrance": [5, 5] },
       { "covers": ["arm_l", "arm_r"], "coverage": 100, "encumbrance": [5, 5] }
@@ -207,7 +211,7 @@
     "symbol": "[",
     "looks_like": "gloves_hsurvivor",
     "color": "dark_gray",
-    "armor": [
+    "armor_portion_data": [
       { "encumbrance": 35, "coverage": 100, "covers": ["hand_l", "hand_r"] }
     ],
     "warmth": 15,
@@ -235,7 +239,7 @@
     "symbol": "[",
     "looks_like": "boots_hsurvivor",
     "color": "dark_gray",
-    "armor": [
+    "armor_portion_data": [
       { "encumbrance": 45, "coverage": 100, "covers": ["foot_l", "foot_r"] }
     ],
     "warmth": 15,
@@ -260,7 +264,9 @@
     "symbol": "[",
     "looks_like": "helmet_survivor",
     "color": "dark_gray",
-    "armor": [{ "encumbrance": 45, "coverage": 100, "covers": ["head"] }],
+    "armor_portion_data": [
+      { "encumbrance": 45, "coverage": 100, "covers": ["head"] }
+    ],
     "warmth": 15,
     "material_thickness": 8,
     "environmental_protection": 5,
@@ -285,7 +291,7 @@
     "symbol": "[",
     "looks_like": "mask_hsurvivor",
     "color": "dark_gray",
-    "armor": [
+    "armor_portion_data": [
       { "covers": ["eyes"], "coverage": 100, "encumbrance": 12 },
       { "covers": ["mouth"], "coverage": 100, "encumbrance": 36 }
     ],
@@ -320,7 +326,9 @@
     "symbol": "[",
     "looks_like": "hood_survivor",
     "color": "dark_gray",
-    "armor": [{ "encumbrance": 30, "coverage": 100, "covers": ["head"] }],
+    "armor_portion_data": [
+      { "encumbrance": 30, "coverage": 100, "covers": ["head"] }
+    ],
     "warmth": 15,
     "material_thickness": 5,
     "environmental_protection": 3,
@@ -344,7 +352,7 @@
     "symbol": "[",
     "looks_like": "hsurvivor_suit",
     "color": "dark_gray",
-    "armor": [
+    "armor_portion_data": [
       { "covers": ["torso"], "coverage": 100, "encumbrance": [25, 30] },
       {
         "covers": ["leg_l", "leg_r"],
@@ -406,7 +414,7 @@
     "symbol": "[",
     "looks_like": "cloak",
     "color": "dark_gray",
-    "armor": [
+    "armor_portion_data": [
       { "covers": ["torso"], "coverage": 95, "encumbrance": [18, 18] },
       { "covers": ["leg_l", "leg_r"], "coverage": 95, "encumbrance": [18, 18] },
       { "covers": ["arm_l", "arm_r"], "coverage": 95, "encumbrance": [18, 18] }
@@ -429,7 +437,7 @@
     "material": ["plastic", "rubber", "cotton"],
     "symbol": "[",
     "color": "dark_gray",
-    "armor": [
+    "armor_portion_data": [
       { "covers": ["torso"], "coverage": 87, "encumbrance": [7, 7] },
       { "covers": ["leg_l", "leg_r"], "coverage": 87, "encumbrance": [7, 7] },
       { "covers": ["arm_l", "arm_r"], "coverage": 87, "encumbrance": [7, 7] }
@@ -459,7 +467,7 @@
     "symbol": "[",
     "looks_like": "fire_gauntlets",
     "color": "dark_gray",
-    "armor": [
+    "armor_portion_data": [
       { "encumbrance": 40, "coverage": 100, "covers": ["hand_l", "hand_r"] }
     ],
     "warmth": 20,
@@ -487,7 +495,7 @@
     "symbol": "[",
     "looks_like": "boots_steel",
     "color": "dark_gray",
-    "armor": [
+    "armor_portion_data": [
       { "encumbrance": 40, "coverage": 100, "covers": ["foot_l", "foot_r"] }
     ],
     "warmth": 20,
@@ -514,7 +522,7 @@
     "symbol": "[",
     "looks_like": "helmet_barbute",
     "color": "dark_gray",
-    "armor": [
+    "armor_portion_data": [
       {
         "encumbrance": 45,
         "coverage": 100,
@@ -544,7 +552,7 @@
     "symbol": "[",
     "looks_like": "armor_lightplate",
     "color": "dark_gray",
-    "armor": [
+    "armor_portion_data": [
       { "covers": ["torso"], "coverage": 100, "encumbrance": [45, 45] },
       {
         "covers": ["leg_l", "leg_r"],
