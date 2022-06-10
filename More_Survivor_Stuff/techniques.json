@@ -37,7 +37,6 @@
     "skill_requirements": [{ "name": "melee", "level": 1 }],
     "weighting": 2,
     "melee_allowed": true,
-    "forbidden_buffs_all": ["mss_buff_mace_onpause"],
     "crit_tec": true,
     "stun_dur": 1,
     "knockback_dist": 1,
