@@ -281,10 +281,17 @@
     "volume": "1600 ml",
     "longest_side": "15 cm",
     "price": 30000,
-    "price_postapoc": 13000,
+    "price_postapoc": 2000,
     "to_hit": -3,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": { "gasfilter_m": 300 }
+      }
+    ],
     "ammo": "gasfilter_m",
-    "use_action": "GASMASK",
+    "use_action": ["GASMASK"],
     "material": ["kevlar_rigid", "steel"],
     "symbol": "[",
     "looks_like": "mask_hsurvivor",
@@ -293,19 +300,12 @@
       { "covers": ["eyes"], "coverage": 100, "encumbrance": 12 },
       { "covers": ["mouth"], "coverage": 100, "encumbrance": 36 }
     ],
-    "pocket_data": [
-      {
-        "pocket_type": "MAGAZINE",
-        "rigid": true,
-        "ammo_restriction": { "gasfilter_m": 300 }
-      }
-    ],
     "warmth": 15,
     "material_thickness": 4,
     "environmental_protection": 1,
     "environmental_protection_with_filter": 16,
     "qualities": [["GLARE", 1]],
-    "flags": ["VARSIZE", "STURDY", "SUN_GLASSES"]
+    "flags": ["VARSIZE", "STURDY", "SUN_GLASSES", "SLEEP_IGNORE"]
   },
   {
     "id": "mss_hood_hsurvivor",
