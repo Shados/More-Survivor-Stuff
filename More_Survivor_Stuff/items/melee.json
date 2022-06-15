@@ -10,7 +10,7 @@
     "symbol": "/",
     "material": ["steel", "plastic"],
     "flags": ["ALWAYS_TWOHAND", "NONCONDUCTIVE", "MESSY", "DURABLE_MELEE"],
-    "techniques": ["WBLOCK_2", "BRUTAL"],
+    "techniques": ["WBLOCK_2", "BRUTAL", "WIDE", "SWEEP"],
     "volume": "1000 ml",
     "longest_side": "100 cm",
     "bashing": 65,
